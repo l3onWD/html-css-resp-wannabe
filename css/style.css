@@ -173,12 +173,24 @@ img {
         width: 100%;
     }
 
+    /* STEPS SECTION */
+    .steps {
+        margin-bottom: 0;
+    }
+
+    /* WHY US SECTION */
+    .why-us {
+        background-color: #222;
+        margin-bottom: 0;
+        padding: 3rem 0;
+    }
+
 }
 
 
 
 
-/* STEPS SECTION */
 
 
-/* WHY US SECTION */
+
+
