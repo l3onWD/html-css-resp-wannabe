@@ -127,6 +127,35 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+/* Breakpoints 
+    lg: 1160px (bonus)
+    md: 768px (tablet)
+    sm: 480px (mobile)
+*/
+
+/* Query */
+@media screen and (max-width: 1160px) {
+    .container {
+        width: 740px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* LESSONS SECTION */
 
 
- 
+/* STEPS SECTION */
+
+
+/* WHY US SECTION */
