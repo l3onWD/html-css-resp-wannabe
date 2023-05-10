@@ -133,11 +133,6 @@ img {
     sm: 480px (mobile)
 */
 
-/* General */
-.row {
-    flex-wrap: wrap;
-}
-
 /* Query Desktop */
 @media screen and (max-width: 1160px) {
 
