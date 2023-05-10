@@ -133,26 +133,49 @@ img {
     sm: 480px (mobile)
 */
 
-/* Query */
+/* General */
+.row {
+    flex-wrap: wrap;
+}
+
+/* Query Desktop */
 @media screen and (max-width: 1160px) {
+
+    /* UTILITY */
     .container {
         width: 740px;
     }
 }
 
+/* Query Tablet */
 @media screen and (max-width: 768px) {
+
+    /* UTILITY */
     .container {
         width: 460px;
     }
 }
 
+/* Query Mobile */
 @media screen and (max-width: 480px) {
+
+    /* UTILITY */
     .container {
         width: 100%;
     }
+
+    .row {
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+
 }
 
-/* LESSONS SECTION */
+
 
 
 /* STEPS SECTION */
